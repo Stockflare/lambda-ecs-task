@@ -24,7 +24,7 @@ exports.handler = function(event, context) {
   var promise = when.promise(function(resolve, reject, notify) {
 
     var params = {
-      taskDefinition: event.taskDefinition, /* required */
+      taskDefinition: event.task, /* required */
       cluster: event.cluster,
       count: count,
       startedBy: started_by
