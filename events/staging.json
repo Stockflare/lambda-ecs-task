@@ -1,0 +1,8 @@
+{
+  "cluster": "ecs-ECSCluster-B0B0Y9Y542EP",
+  "task": "arn:aws:ecs:us-east-1:318741577598:task-definition/push-worker-PushEmailerServiceDefinition-1DRFOWIKS02N1:1",
+  "environment": {
+    "REGION_CODE": "amer"
+  },
+  "region": "us-east-1"
+}
